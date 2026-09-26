@@ -220,8 +220,13 @@ I'm particularly interested in building and deploying backend systems on cloud i
 # 📊 GitHub
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Random6374&show_icons=true&hide_border=true&rank_icon=github" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Random6374&layout=compact&hide_border=true" height="165"/>
+  <a href="https://github.com/Random6374">
+    <img src="https://img.shields.io/badge/GitHub-Random6374-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+</p>
+
+<p align="center">
+  <i>Building projects, learning in public, and continuously improving.</i>
 </p>
 
 ---
