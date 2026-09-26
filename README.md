@@ -217,19 +217,7 @@ I'm particularly interested in building and deploying backend systems on cloud i
 
 ---
 
-# 📊 GitHub
 
-<p align="center">
-  <a href="https://github.com/Random6374">
-    <img src="https://img.shields.io/badge/GitHub-Random6374-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-</p>
-
-<p align="center">
-  <i>Building projects, learning in public, and continuously improving.</i>
-</p>
-
----
 
 # 🤝 Connect
 
