@@ -2,59 +2,91 @@
 
 ### B.Tech CSE Student · Cloud · Backend · Security
 
-I'm a Computer Science student interested in **building systems, understanding how they work, and learning how to make them more secure**.
+I'm a Computer Science student who enjoys **building applications, working with cloud infrastructure, and understanding how systems work under the hood**.
 
-My current focus is on **Cloud Computing, Backend Engineering, and Cybersecurity**, with a long-term goal of working in **Cloud Security**.
+My current interests sit at the intersection of:
 
-I learn primarily by building projects, testing assumptions, and understanding the engineering decisions behind them.
+**☁️ Cloud Computing · ⚙️ Backend Engineering · 🔐 Cybersecurity**
+
+I learn by building projects, breaking things, fixing them, and going deeper into the engineering decisions behind them.
 
 ---
 
-## 🧭 What I'm Working Toward
+## 🧭 What I'm Building Toward
 
 ```text
-        ☁️ Cloud Computing
-               │
-               ▼
-        ⚙️ Backend Engineering
-               │
-               ▼
-        🔐 Cybersecurity
-               │
-               ▼
-        🛡️ Cloud Security
+       ☁️ Cloud Computing
+              │
+              ▼
+       ⚙️ Backend Engineering
+              │
+              ▼
+        🔐 Security
 ```
 
-Currently exploring:
+Currently focused on:
 
-- ☁️ Cloud infrastructure & computing
+- ☁️ Cloud infrastructure & services
 - ⚙️ Backend development
-- 🔐 Application security
-- 🔑 Authentication & cryptography
+- 🔐 Application & system security
 - 🤖 AI / RAG systems
 - 🧪 Software & security testing
 - 🏗️ System design
 
 ---
 
-# 🚀 Projects
+# 🚀 Featured Projects
+
+## 🤖 AI Document Search — RAG Application
+
+A full-stack **PDF-based Retrieval-Augmented Generation application** that lets users upload multiple documents, select which documents should be used as context, and ask questions about their contents.
+
+### What I worked with
+
+- PDF text extraction with **PyMuPDF**
+- Text chunking and embedding generation
+- Semantic search using **FAISS**
+- **Sentence Transformers**
+- Document metadata with **SQLite**
+- Multi-document retrieval and filtering
+- **Google Gemini** for answer generation
+- **FastAPI** backend
+- **React + Vite** frontend
+- Persistent FAISS indexes and document storage
+- REST API endpoints
+- AWS EC2 deployment
+- Nginx reverse proxy
+- systemd-managed backend service
+- Automated EC2 deployment
+
+**Stack:**  
+`Python` `FastAPI` `PyMuPDF` `Sentence Transformers` `FAISS` `SQLite` `Gemini` `React` `Vite` `JavaScript` `AWS EC2` `Nginx` `systemd`
+
+**[View Repository →](https://github.com/Random6374/AI-Document-Search)**
+
+---
 
 ## 🔐 Secure Password Manager
 
-A security-focused **local password manager** built around real cryptographic primitives and security engineering rather than simple CRUD functionality.
+A security-focused **local password manager** designed around proper authentication, key derivation, authenticated encryption, testing, and secure vault architecture.
 
-**Highlights**
+### Security foundations
 
-- Argon2id password-based key derivation
-- AES-256-GCM authenticated encryption
+- **Argon2id** key derivation
+- **AES-256-GCM** authenticated encryption
 - Cryptographically secure salts and nonces
-- Encrypted local vault architecture
-- Authentication and cryptography separation
-- Password generation
-- Security-focused testing with Pytest
-- Threat modeling and security considerations
+- Password authentication with Argon2
+- Separation of authentication, key derivation, and cryptography
+- Encrypted local vault design
+- Secure password generation
+- Tamper-detection testing
+- Wrong-key testing
+- Nonce uniqueness testing
+- Unit testing with **Pytest**
+- Threat-model-driven development
 
-**Stack:** `Python` `Argon2id` `AES-256-GCM` `cryptography` `argon2-cffi` `Pytest`
+**Stack:**  
+`Python` `argon2-cffi` `Argon2id` `cryptography` `AES-256-GCM` `secrets` `Pytest`
 
 🚧 **Actively developing**
 
@@ -62,80 +94,74 @@ A security-focused **local password manager** built around real cryptographic pr
 
 ---
 
-## 🤖 AI Document Search / RAG
-
-A document-based AI project exploring **retrieval-augmented generation**, semantic document retrieval, and using retrieved context to improve responses from a knowledge base.
-
-**Highlights**
-
-- Document ingestion
-- Text processing
-- Semantic retrieval
-- Retrieval-augmented generation
-- Context-based question answering
-- Experimentation with LLM-powered applications
-
-**Stack:** `Python` `RAG` `Semantic Search` `Document Retrieval` `LLM Applications`
-
-**[View Projects →](https://github.com/Random6374)**
-
----
-
 ## 💰 Personal Finance Tracker
 
-A Python-based application focused on managing and working with personal financial data.
+A lightweight desktop application built to practice **Python GUI development and structured local data handling**.
 
-**Highlights**
+### What I worked with
 
-- Financial record management
-- Structured data handling
-- CSV-based data processing
-- Desktop application interface
-- Data organization and tracking
+- Tkinter GUI
+- Expense tracking
+- CSV-based persistence
+- Reading and writing structured data
+- Python application logic
+- Local desktop application development
 
-**Stack:** `Python` `Tkinter` `CSV` `File Handling`
+**Stack:**  
+`Python` `Tkinter` `CSV`
 
-**[View Projects →](https://github.com/Random6374)**
+**[View Repository →](https://github.com/Random6374/Personal-Finance-Tracker-Desktop-Application-)**
 
 ---
 
-## 💻 Other Projects & Experiments
+## 🔑 Password Manager — Earlier Project
 
-Alongside my larger projects, I use smaller projects and experiments to strengthen my programming fundamentals and explore different areas of software development.
+An earlier Python project where I experimented with building a password-management application, including a **Tkinter GUI**, local storage, password generation, and basic encryption.
 
-These include working with:
+This project became useful for understanding what **not** to do in a security-sensitive application and eventually led to the complete redesign into my current security-focused password manager.
 
-- Python application development
-- Data processing
-- File-based applications
-- Programming fundamentals
-- Backend concepts
-- Security experiments
-- AI / retrieval-based applications
+### Technologies explored
 
-**[Explore all repositories →](https://github.com/Random6374?tab=repositories)**
+- Python
+- Tkinter
+- Password generation
+- Local data storage
+- Basic encryption concepts
+- GUI application development
+
+**[View Repository →](https://github.com/Random6374/Password-Manager-CLI-GUI-Application-)**
 
 ---
 
 # 🛠️ Tech Stack
 
-### 💻 Languages
+### 💻 Programming
 
 <p>
-  <img src="https://skillicons.dev/icons?i=python,java,c,cpp,sql" />
+<img src="https://skillicons.dev/icons?i=python,javascript" />
 </p>
 
-### ⚙️ Development & Tools
+`Python` · `JavaScript`
+
+### 🌐 Backend
 
 <p>
-  <img src="https://skillicons.dev/icons?i=git,github,vscode" />
+<img src="https://skillicons.dev/icons?i=fastapi" />
 </p>
 
-`Pytest` · `Git` · `GitHub` · `VS Code` · Debugging · Version Control
+`FastAPI` · `Uvicorn` · REST APIs · Backend Application Architecture
+
+### 🎨 Frontend
+
+<p>
+<img src="https://skillicons.dev/icons?i=react,vite" />
+</p>
+
+`React` · `Vite` · `JavaScript` · `Fetch API` · `CSS`
 
 ### 🤖 AI / RAG
 
-`RAG` · `LLM Applications` · `Document Retrieval` · `Semantic Search` · `Text Processing`
+`RAG` · `Sentence Transformers` · `Embeddings` · `Semantic Search` · `FAISS` · `Google Gemini` · `PDF Processing` · `Document Retrieval`
 
 ### 🔐 Security & Cryptography
 
@@ -143,31 +169,43 @@ These include working with:
 
 ### 🗄️ Data & Storage
 
-`SQL` · `CSV` · `JSON` · `File-Based Storage` · `Structured Data Processing` · `Encrypted Vault Storage`
+`SQLite` · `CSV` · `JSON` · `Local File Storage` · `FAISS Indexes` · `Document Metadata`
 
-### 🖥️ Application Development
+### 🖥️ Desktop Development
 
 `Tkinter` · `Python GUI Development` · `Desktop Applications`
 
 ### ☁️ Cloud & Infrastructure
 
-`Cloud Computing` · `Cloud Infrastructure` · `Backend Systems` · `Cloud Security`
+<p>
+<img src="https://skillicons.dev/icons?i=aws,ubuntu,nginx" />
+</p>
+
+`AWS EC2` · `Ubuntu` · `Nginx` · `systemd` · `Uvicorn` · `Shell Deployment`
+
+### 🧪 Testing & Development Tools
+
+<p>
+<img src="https://skillicons.dev/icons?i=git,github,vscode" />
+</p>
+
+`Git` · `GitHub` · `VS Code` · `Pytest` · `Virtual Environments`
 
 ---
 
 # 📚 Currently Learning
 
 ### ☁️ Cloud Computing
-Building a stronger foundation in cloud infrastructure, services, and distributed systems.
+
+Building stronger foundations in **cloud infrastructure, deployment, networking, and cloud services**.
 
 ### ⚙️ Backend Engineering
-Improving my understanding of APIs, application architecture, databases, and scalable backend systems.
 
-### 🔐 Cybersecurity
-Going deeper into authentication, cryptography, application security, threat modeling, and secure software design.
+Going deeper into **APIs, application architecture, persistence, deployment, and scalable backend systems**.
 
-### 🛡️ Long-Term: Cloud Security
-Combining cloud infrastructure knowledge with security engineering to work toward a career in **Cloud Security**.
+### 🔐 Security
+
+Developing stronger foundations in **authentication, cryptography, application security, threat modeling, and secure system design**.
 
 ---
 
@@ -175,11 +213,7 @@ Combining cloud infrastructure knowledge with security engineering to work towar
 
 **Cloud + Backend + Security**
 
-My long-term goal is to work at the intersection of these areas, particularly in **Cloud Security**.
-
-I'm especially interested in understanding not just how systems are built, but also:
-
-> **How can they be designed to remain secure when things go wrong?**
+I'm particularly interested in building and deploying backend systems on cloud infrastructure while developing a strong understanding of the security considerations involved.
 
 ---
 
@@ -192,15 +226,16 @@ I'm especially interested in understanding not just how systems are built, but a
 
 ---
 
-# 🤝 Connect With Me
+# 🤝 Connect
 
 <p>
-  <a href="https://www.linkedin.com/in/kunalmakane/">
-    <img src="https://img.shields.io/badge/LinkedIn-Kunal%20Makane-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="https://github.com/Random6374">
-    <img src="https://img.shields.io/badge/GitHub-Random6374-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
+<a href="https://www.linkedin.com/in/kunalmakane/">
+<img src="https://img.shields.io/badge/LinkedIn-Kunal%20Makane-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="https://github.com/Random6374">
+<img src="https://img.shields.io/badge/GitHub-Random6374-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
 </p>
 
 ---
